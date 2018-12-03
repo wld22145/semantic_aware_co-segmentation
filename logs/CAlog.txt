@@ -1,0 +1,67 @@
+---------------------------------------------
+time consumption:  1300.5422761440277
+epoch0 iter 1000/10600 BCE loss: 0.7340262
+testing......
+pixel accuracy: 0.9133072900772095 correct: 766137684  wrong: 72723116
+precision: 0.8504996446866924 true_positive: 100854517 positive: 118582668
+jaccard score: 0.5810340609956353 intersection: 100854517 union: 173577633
+saving model: batch16epoch0iter1000.pkl
+model saved
+---------------------------------------------
+time consumption:  1330.0261545181274
+epoch0 iter 2000/10600 BCE loss: 0.5508
+testing......
+pixel accuracy: 0.9141375231742859 correct: 766834134  wrong: 72026666
+precision: 0.7454490898648239 true_positive: 127288396 positive: 170753976
+jaccard score: 0.6386290866467482 intersection: 127288396 union: 199315062
+saving model: batch16epoch0iter2000.pkl
+model saved
+---------------------------------------------
+time consumption:  1331.187177658081
+epoch0 iter 3000/10600 BCE loss: 0.4556983
+testing......
+pixel accuracy: 0.9209218883514404 correct: 772525272  wrong: 66335528
+precision: 0.798799313094361 true_positive: 119651689 positive: 149789424
+jaccard score: 0.643332864107537 intersection: 119651689 union: 185987217
+saving model: batch16epoch0iter3000.pkl
+model saved
+---------------------------------------------
+time consumption:  1319.269478559494
+epoch0 iter 4000/10600 BCE loss: 0.39511934
+testing......
+pixel accuracy: 0.916550235748291 correct: 768858064  wrong: 70002736
+precision: 0.8259526230616323 true_positive: 108766336 positive: 131685926
+jaccard score: 0.6084180825193297 intersection: 108766336 union: 178769072
+saving model: batch16epoch0iter4000.pkl
+model saved
+---------------------------------------------
+time consumption:  1329.7966220378876
+epoch0 iter 5000/10600 BCE loss: 0.35290948
+testing......
+pixel accuracy: 0.9218237602710724 correct: 773281817  wrong: 65578983
+precision: 0.8288488499625125 true_positive: 113761382 positive: 137252265
+jaccard score: 0.6343322765067418 intersection: 113761382 union: 179340365
+saving model: batch16epoch0iter5000.pkl
+model saved
+---------------------------------------------
+time consumption:  1317.9247329235077
+epoch0 iter 6000/10600 BCE loss: 0.32118356
+testing......
+pixel accuracy: 0.9196839809417725 correct: 771486840  wrong: 67373960
+precision: 0.8309036787580084 true_positive: 111081625 positive: 133687728
+jaccard score: 0.6224609053283482 intersection: 111081625 union: 178455585
+saving model: batch16epoch0iter6000.pkl
+model saved
+---------------------------------------------
+time consumption:  1173.4507012367249
+epoch0 iter 7000/10600 BCE loss: 0.29675686
+testing......
+pixel accuracy: 0.9196955680847168 correct: 771496560  wrong: 67364240
+precision: 0.8058275132427427 true_positive: 116575258 positive: 144665274
+jaccard score: 0.6337695778641301 intersection: 116575258 union: 183939498
+saving model: batch16epoch0iter7000.pkl
+model saved
+---------------------------------------------
+time consumption:  1155.5984072685242
+epoch0 iter 8000/10600 BCE loss: 0.27651328
+testing......

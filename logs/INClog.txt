@@ -1,0 +1,172 @@
+test mode
+model_path/INCepoch0iter1000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8688736736774445 correct: 728864065  wrong: 109996735
+precision: 0.6762049864061289 true_positive: 87982346 positive: 130111945
+jaccard score: 0.4444022345977048 intersection: 87982346 union: 197979081
+test time consumption:  132.06673431396484
+model_path/INCepoch0iter2000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8587574851512909 correct: 720377991  wrong: 118482809
+precision: 0.6079090534411766 true_positive: 105253165 positive: 173139657
+jaccard score: 0.4704346963890572 intersection: 105253165 union: 223735974
+test time consumption:  122.32997155189514
+model_path/INCepoch0iter3000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8667033708095551 correct: 727043483  wrong: 111817317
+precision: 0.6738382877125477 true_positive: 85339539 positive: 126646913
+jaccard score: 0.4328509833814757 intersection: 85339539 union: 197156856
+test time consumption:  123.44010782241821
+model_path/INCepoch0iter4000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8295730388164521 correct: 695896303  wrong: 142964497
+precision: 0.5310947053254512 true_positive: 110037179 positive: 207189373
+jaccard score: 0.43492668009045127 intersection: 110037179 union: 253001676
+test time consumption:  123.88282608985901
+model_path/INCepoch0iter5000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8696032536029815 correct: 729476081  wrong: 109384719
+precision: 0.6755267591899824 true_positive: 89411412 positive: 132358061
+jaccard score: 0.44976434677191984 intersection: 89411412 union: 198796131
+test time consumption:  122.81571841239929
+model_path/INCepoch0iter6000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8658641505241395 correct: 726339494  wrong: 112521306
+precision: 0.6575124762912476 true_positive: 90433523 positive: 137538870
+jaccard score: 0.4455844852058189 intersection: 90433523 union: 202954829
+test time consumption:  121.53204584121704
+model_path/INCepoch0iter7000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8561171627044678 correct: 718163128  wrong: 120697672
+precision: 0.5966655038804073 true_positive: 108486852 positive: 181821894
+jaccard score: 0.4733602867530445 intersection: 108486852 union: 229184524
+test time consumption:  123.6474859714508
+model_path/INCepoch0iter8000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8519851696491242 correct: 714696961  wrong: 124163839
+precision: 0.5857941429119731 true_positive: 108173259 positive: 184660875
+jaccard score: 0.46558754469766167 intersection: 108173259 union: 232337098
+test time consumption:  125.09164547920227
+model_path/INCepoch0iter9000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8545064496994018 correct: 716811964  wrong: 122048836
+precision: 0.6007927093696818 true_positive: 100737354 positive: 167674062
+jaccard score: 0.4521705497095668 intersection: 100737354 union: 222786190
+test time consumption:  124.15375757217407
+model_path/INCepoch0iter10000.pkl
+finish loading
+testing......
+pixel accuracy: 0.85694983959198 correct: 718861628  wrong: 119999172
+precision: 0.6068177526006159 true_positive: 101830473 positive: 167810636
+jaccard score: 0.45904808169349953 intersection: 101830473 union: 221829645
+test time consumption:  122.66919326782227
+model_path/INCepoch0iter11000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8681295907497406 correct: 728239883  wrong: 110620917
+precision: 0.7468917536422275 true_positive: 68412253 positive: 91595941
+jaccard score: 0.3821205478292095 intersection: 68412253 union: 179033170
+test time consumption:  124.81249284744263
+model_path/INCepoch0iter12000.pkl
+finish loading
+testing......
+pixel accuracy: 0.863939563035965 correct: 724725033  wrong: 114135767
+precision: 0.6476489900303297 true_positive: 91486726 positive: 141259737
+jaccard score: 0.44492567260139193 intersection: 91486726 union: 205622493
+test time consumption:  126.69758605957031
+model_path/INCepoch0iter13000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8662591826915741 correct: 726670871  wrong: 112189929
+precision: 0.7871647512879826 true_positive: 59838927 positive: 76018301
+jaccard score: 0.34784238174553694 intersection: 59838927 union: 172028856
+test time consumption:  125.31525421142578
+model_path/INCepoch0iter14000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8683831071853638 correct: 728452548  wrong: 110408252
+precision: 0.7381768970344488 true_positive: 70417548 positive: 95393866
+jaccard score: 0.38942201831818246 intersection: 70417548 union: 180825800
+test time consumption:  124.77198195457458
+model_path/INCepoch0iter15000.pkl
+finish loading
+testing......
+pixel accuracy: 0.850928807258606 correct: 713810820  wrong: 125049980
+precision: 0.5975624984066646 true_positive: 94322243 positive: 157844984
+jaccard score: 0.42996438523577346 intersection: 94322243 union: 219372223
+test time consumption:  123.88254165649414
+model_path/INCepoch0iter16000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8726056122779846 correct: 731994642  wrong: 106866158
+precision: 0.671935566713472 true_positive: 95715035 positive: 142446746
+jaccard score: 0.4724773982350869 intersection: 95715035 union: 202581193
+test time consumption:  123.23591732978821
+model_path/INCepoch0iter17000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8712060499191284 correct: 730820604  wrong: 108040196
+precision: 0.6987269893488058 true_positive: 84049073 positive: 120288860
+jaccard score: 0.4375521518591442 intersection: 84049073 union: 192089269
+test time consumption:  122.92316460609436
+model_path/INCepoch0iter18000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8603944873809815 correct: 721751208  wrong: 117109592
+precision: 0.615734255994696 true_positive: 103052796 positive: 167365702
+jaccard score: 0.4680763001171662 intersection: 103052796 union: 220162388
+test time consumption:  123.36096477508545
+model_path/INCepoch0iter19000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8734664452075959 correct: 732716761  wrong: 106144039
+precision: 0.6902523364619768 true_positive: 90167876 positive: 130630309
+jaccard score: 0.45930923754678876 intersection: 90167876 union: 196311915
+test time consumption:  126.1346263885498
+model_path/INCepoch0iter20000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8584723389148712 correct: 720138793  wrong: 118722007
+precision: 0.6064340633631854 true_positive: 105771427 positive: 174415379
+jaccard score: 0.47115599380960066 intersection: 105771427 union: 224493434
+test time consumption:  125.31504082679749
+model_path/INCepoch0iter21000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8691760003566742 correct: 729117675  wrong: 109743125
+precision: 0.6540426981296135 true_positive: 97880414 positive: 149654471
+jaccard score: 0.471432162612352 intersection: 97880414 union: 207623539
+test time consumption:  121.79872608184814
+model_path/INCepoch0iter22000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8638078796863556 correct: 724614569  wrong: 114246231
+precision: 0.627802435405817 true_positive: 102183586 positive: 162763921
+jaccard score: 0.47213266368006956 intersection: 102183586 union: 216429817
+test time consumption:  119.34814667701721
+model_path/INCepoch0iter23000.pkl
+finish loading
+testing......
+pixel accuracy: 0.8717279851436615 correct: 731258435  wrong: 107602365
+precision: 0.7090002750131466 true_positive: 81835345 positive: 115423573
+jaccard score: 0.4319907847281304 intersection: 81835345 union: 189437710
+test time consumption:  126.14217472076416
+model_path/INCepoch0iter24000.pkl
+finish loading
+testing......
+pixel accuracy: 0.871049987077713 correct: 730689689  wrong: 108171111
+precision: 0.6685835855119493 true_positive: 94543535 positive: 141408699
+jaccard score: 0.466387293002993 intersection: 94543535 union: 202714646
+test time consumption:  124.04903388023376
+model_path/INCepoch0iter25000.pkl
+finish loading
+testing......
