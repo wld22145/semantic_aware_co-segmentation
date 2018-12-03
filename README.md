@@ -11,7 +11,7 @@ There are corresponding paper, codes and instructions.
 follow the instruction at the github link.
 
 NOTICE
-actually the code requires more packages than that, and soome packages are never used. 
+actually the code requires more packages than that, and some packages are never used. 
 
 
 but I still keep those import code
@@ -26,12 +26,13 @@ unzip the dataset into Datasets folder with name PascalVoc.
 
 follow the instruction at the link.
 
-Because I modified the defualt address so directly use " python train.py " can also work.
+Because I modified the defualt address so directly using " python train.py " can also work.
 
 Unless the defualt address doesn't suit you.
 
 NOTICE
 I set the defualt batch_size as 16, and it may consume 32G memory
+
 if there is out-of-memory error, set the batch_szie to 4
 
 
@@ -68,7 +69,9 @@ to
 
 trainer = Trainer('test')
 
-and input a filename the test() function
+input a filename the test() function
+
+and then call trainer.test()
 
 I will clean it up soon
 
