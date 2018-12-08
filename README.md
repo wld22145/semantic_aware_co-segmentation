@@ -1,4 +1,4 @@
-#Reference
+# Reference
 
 This project is based on 
 
@@ -7,7 +7,7 @@ https://github.com/sairin1202/Semantic-Aware-Attention-Based-Deep-Object-Co-segm
 Please visit this link first, where you can find the corresponding papar, code and introduction.
 
 
-#Download
+# Download
 
 链接：https://pan.baidu.com/s/1NizpK57fAYjlGuMKG-cXPw 
 提取码：v3ik 
@@ -28,7 +28,7 @@ CSAepoch0iter6000.pkl : my CSA model with batch size 16
 vggepoch0iter2000.pkl : my vgg19 model with batch size 16
 
 
-#Install
+# Install
 
 Here is the list of libraries you need to install to execute the code:
 - python = 3.6
@@ -36,7 +36,7 @@ Here is the list of libraries you need to install to execute the code:
 - Pillow
 - Numpy
 
-#Train
+# Train
 
 Unzip the dataset into Datasets folder with name **PascalVoc**.
 
@@ -63,7 +63,7 @@ python train.py --batch_size=4
 ```
 
 
-#Test
+# Test
 
 There are some good-performing models at the baidu cloud link, you can download them and put them in the model_path folder.
 
@@ -83,7 +83,7 @@ python group_demo.py --image_path "group_demo/images/" --output_path "group_demo
 
 
 
-#Evaluate
+# Evaluate
 
 To evaluate a model, you can do this:
 
@@ -91,7 +91,7 @@ To evaluate a model, you can do this:
 python evaluation.py --filename=model_path/CAepoch0iter5000.pkl
 ```
 
-#Models
+# Models
 
 By default train.py and evaluation.py use CA model structure 
 , that is, a model with CA attention learner implemented by 
@@ -142,7 +142,7 @@ extend the attention learner to 2048 channels
 most of them fail.
 
 
-#Result
+# Result
 
 I've already placed some demo results in this project.
 
