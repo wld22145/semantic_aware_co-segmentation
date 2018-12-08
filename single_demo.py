@@ -1,11 +1,9 @@
-import torch
 import PIL.Image as Image
 from torchvision.utils import save_image
-from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
 from torchvision.transforms import Compose, CenterCrop, Normalize, Scale, Resize
 from torchvision.transforms import ToTensor, ToPILImage
 from torch.utils.data import DataLoader
-from model_ca import *
+from models.model_ca import *
 import numpy as np
 from torchvision.utils import save_image
 import argparse

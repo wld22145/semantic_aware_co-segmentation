@@ -1,39 +1,17 @@
 import torch
-import torchvision
-from torchvision.models import vgg16
-from torchvision.transforms import Compose, CenterCrop, Normalize, Scale, Resize, ToTensor, ToPILImage
+from torchvision.transforms import Compose, CenterCrop, Normalize, Resize, ToTensor
 from torch.utils.data import DataLoader
-from torch.autograd import Variable
-from torch.optim import Adam
 import torch.nn as nn
-from torch.nn import init
-import torch.nn.functional as F
 import torch.optim as optim
-import skimage.io as io
 
 import time
 
 import numpy as np
-import glob
-import cv2
-import itertools
-import PIL.Image as Image
 import argparse
 
-from datasets import coseg_val_dataset, coseg_train_dataset
-import model_ca
-import model_fca
-import model_csa
-import model_fcsa
-import model_inception
-import model_self
-import model_blank
-import model_resnet
-import model_vgg
-import model_vggbn
-
-
-
+from datasets import coseg_val_dataset
+from models import model_blank, model_ca, model_csa, model_fca, model_fcsa, model_inception, model_resnet, model_self, \
+    model_vgg, model_vggbn
 
 # input arguments
 parser = argparse.ArgumentParser(description='Attention Based Co-segmentation')

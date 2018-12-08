@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader
 from torchvision.utils import save_image
 import PIL.Image as Image
 import numpy as np
-from model_ca import *
+from models.model_ca import *
 from glob import glob
 import argparse
 
