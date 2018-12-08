@@ -31,7 +31,7 @@ import model_blank
 import model_resnet
 import model_vgg
 import model_vggbn
-import model_resnet_improved
+
 
 
 
@@ -46,6 +46,7 @@ parser.add_argument('--batch_size', default=16, type=int, help='bacth size')
 parser.add_argument('--epoches', default=5, help='epoches')
 
 parser.add_argument('--model', default="ca", help='model structure')
+parser.add_argument('--filename',help="filename of the model to test")
 
 parser.add_argument('--train_data', default="Datasets/PascalVoc/image/", help='training data directory')
 parser.add_argument('--val_data', default="Datasets/PascalVoc/image/", help='validation data directory')
@@ -77,6 +78,7 @@ class ToLabel:
 
 class Trainer:
     def __init__(self):
+
         self.args = args
 
 
@@ -89,11 +91,6 @@ class Trainer:
         self.net = self.parse_model().cuda()
         # self.net = nn.DataParallel(self.net, device_ids=self.args.gpu_ids)
         self.net = nn.DataParallel(self.net)
-
-        self.train_data_loader = None
-
-        self.train_data_loader = DataLoader(coseg_train_dataset(self.args.train_data, self.args.train_label, self.args.train_txt, self.input_transform, self.label_transform),
-                                                 num_workers=self.args.num_worker, batch_size=self.args.batch_size, shuffle=True)
 
         self.val_data_loader = DataLoader(coseg_val_dataset(self.args.val_data, self.args.val_label, self.args.val_txt, self.input_transform, self.label_transform),
                                           num_workers=self.args.num_worker, batch_size=self.args.batch_size, shuffle=False)
@@ -122,8 +119,6 @@ class Trainer:
             return model_vggbn.model()
         elif self.args.model == "resnet":
             return model_resnet.model()
-        elif self.args.model == "resnet_improved":
-            return model_resnet_improved.model()
         else:
             print("cannot parse model's name")
             return None
@@ -195,53 +190,16 @@ class Trainer:
         self.net.train()
         return correct / (correct + wrong), intersection / union, true_positive / positive
 
-    def train(self):
-        print("train mode")
-        for epoch in range(self.args.epoches):
-            losses = []
-            train_start_time = time.time()
-            for i, (image1, image2, label1, label2) in enumerate(self.train_data_loader):
-
-
-
-                image1, image2, label1, label2 = image1.cuda(
-                ), image2.cuda(), label1.cuda(), label2.cuda()
-
-                output1, output2 = self.net(image1, image2)
-                # calculate loss from output1 and output2
-                loss = self.loss_func(output1, label1)
-                loss += self.loss_func(output2, label2)
-
-                self.optimizer.zero_grad()
-                loss.backward()
-                self.optimizer.step()
-                losses.append(loss.data.cpu().numpy())
-
-                if i % 1000 == 0 and i != 0:
-                    print("---------------------------------------------")
-                    train_finish_time = time.time()
-                    print("train time consumption: ",train_finish_time - train_start_time)
-                    train_start_time = time.time()
-
-                    print("epoch{} iter {}/{} BCE loss:".format(epoch,
-                                                                i, len(self.train_data_loader)), np.mean(losses))
-                    losses = []
-                    print("testing......")
-                    test_start_time = time.time()
-                    acc, jac, pre = self.evaluate(self.net, epoch)
-                    test_finish_time = time.time()
-                    print("test time consumption: ", test_finish_time - test_start_time)
-                if i % 1000 == 0 and i != 0:
-                    print("saving model: epoch{}iter{}.pkl".format(epoch, i))
-                    save_start_time = time.time()
-                    torch.save(self.net.state_dict(),
-                               args.model_path +self.args.model+'epoch{}iter{}.pkl'.format(epoch, i))
-                    print("model saved")
-                    save_finish_time = time.time()
-                    print("save time consumption: ", save_finish_time - save_start_time)
-
+    def test(self):
+        print("testing ",self.args.filename)
+        self.net.load_state_dict(torch.load(self.args.filename))
+        print("model loaded")
+        print("testing......")
+        test_start_time = time.time()
+        acc, jac, pre = self.evaluate(self.net, self.args.epoches)
+        test_finish_time = time.time()
+        print("test time consumption: ", test_finish_time - test_start_time)
 
 if __name__ == "__main__":
     trainer = Trainer()
-    trainer.train()
-
+    trainer.test()

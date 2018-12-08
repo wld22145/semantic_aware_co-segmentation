@@ -1,0 +1,302 @@
+train mode
+---------------------------------------------
+train time consumption:  589.5981690883636
+epoch0 iter 1000/42397 BCE loss: 0.87034863
+testing......
+pixel accuracy: 0.8646075296401977 correct: 725285364  wrong: 113575436
+precision: 0.7030606939943518 true_positive: 73183095 positive: 104092144
+jaccard score: 0.3918594487124125 intersection: 73183095 union: 186758531
+test time consumption:  91.03832340240479
+saving model: epoch0iter1000.pkl
+model saved
+save time consumption:  0.8501296043395996
+---------------------------------------------
+train time consumption:  677.8035025596619
+epoch0 iter 2000/42397 BCE loss: 0.514592
+testing......
+pixel accuracy: 0.8493197548389435 correct: 712461049  wrong: 126399751
+precision: 0.7747496308292166 true_positive: 41521745 positive: 53593759
+jaccard score: 0.24726878922041048 intersection: 41521745 union: 167921496
+test time consumption:  90.92688632011414
+saving model: epoch0iter2000.pkl
+model saved
+save time consumption:  0.8712282180786133
+---------------------------------------------
+train time consumption:  677.554604768753
+epoch0 iter 3000/42397 BCE loss: 0.4337481
+testing......
+pixel accuracy: 0.873466728925705 correct: 732716999  wrong: 106143801
+precision: 0.6872912003023929 true_positive: 91200967 positive: 132696253
+jaccard score: 0.4621402833441219 intersection: 91200967 union: 197344768
+test time consumption:  89.03139472007751
+saving model: epoch0iter3000.pkl
+model saved
+save time consumption:  0.8208661079406738
+---------------------------------------------
+train time consumption:  675.8683123588562
+epoch0 iter 4000/42397 BCE loss: 0.38499427
+testing......
+pixel accuracy: 0.8693694794178009 correct: 729279977  wrong: 109580823
+precision: 0.6712373574814785 true_positive: 90684804 positive: 135100949
+jaccard score: 0.4528226104422802 intersection: 90684804 union: 200265627
+test time consumption:  90.2294819355011
+saving model: epoch0iter4000.pkl
+model saved
+save time consumption:  0.806096076965332
+---------------------------------------------
+train time consumption:  677.6448321342468
+epoch0 iter 5000/42397 BCE loss: 0.3688517
+testing......
+pixel accuracy: 0.8771229422092438 correct: 735784053  wrong: 103076747
+precision: 0.7332754275625922 true_positive: 82942619 positive: 113112503
+jaccard score: 0.445881634711087 intersection: 82942619 union: 186019366
+test time consumption:  89.68585467338562
+saving model: epoch0iter5000.pkl
+model saved
+save time consumption:  0.9409446716308594
+---------------------------------------------
+train time consumption:  679.2882084846497
+epoch0 iter 6000/42397 BCE loss: 0.34011748
+testing......
+pixel accuracy: 0.8801055955886841 correct: 738286084  wrong: 100574716
+precision: 0.6782224887185896 true_positive: 105173566 positive: 155072366
+jaccard score: 0.511175913488308 intersection: 105173566 union: 205748282
+test time consumption:  90.76737213134766
+saving model: epoch0iter6000.pkl
+model saved
+save time consumption:  0.9301550388336182
+---------------------------------------------
+train time consumption:  682.9690971374512
+epoch0 iter 7000/42397 BCE loss: 0.3243315
+testing......
+pixel accuracy: 0.8875307893753052 correct: 744514788  wrong: 94346012
+precision: 0.7650566205710223 true_positive: 88761482 positive: 116019494
+jaccard score: 0.484750678746114 intersection: 88761482 union: 183107494
+test time consumption:  91.07174897193909
+saving model: epoch0iter7000.pkl
+model saved
+save time consumption:  0.8635411262512207
+---------------------------------------------
+train time consumption:  680.2302496433258
+epoch0 iter 8000/42397 BCE loss: 0.32214907
+testing......
+pixel accuracy: 0.8840517771244049 correct: 741596381  wrong: 97264419
+precision: 0.799821647637041 true_positive: 78142459 positive: 97699855
+jaccard score: 0.44549255930545667 intersection: 78142459 union: 175406878
+test time consumption:  91.16457605361938
+saving model: epoch0iter8000.pkl
+model saved
+save time consumption:  0.8314690589904785
+---------------------------------------------
+train time consumption:  675.9217531681061
+epoch0 iter 9000/42397 BCE loss: 0.31198937
+testing......
+pixel accuracy: 0.8844949471950531 correct: 741968139  wrong: 96892661
+precision: 0.759993429961027 true_positive: 86169094 positive: 113381367
+jaccard score: 0.47071052061092716 intersection: 86169094 union: 183061755
+test time consumption:  91.21961498260498
+saving model: epoch0iter9000.pkl
+model saved
+save time consumption:  0.8772132396697998
+---------------------------------------------
+train time consumption:  676.6422147750854
+epoch0 iter 10000/42397 BCE loss: 0.3098307
+testing......
+pixel accuracy: 0.8865985178947449 correct: 743732742  wrong: 95128058
+precision: 0.7157751870864166 true_positive: 100713361 positive: 140705298
+jaccard score: 0.514259759320882 intersection: 100713361 union: 195841419
+test time consumption:  90.60422611236572
+saving model: epoch0iter10000.pkl
+model saved
+save time consumption:  0.8185186386108398
+---------------------------------------------
+train time consumption:  676.8866090774536
+epoch0 iter 11000/42397 BCE loss: 0.2918038
+testing......
+pixel accuracy: 0.884690773487091 correct: 742132410  wrong: 96728390
+precision: 0.7156468100815969 true_positive: 98099807 positive: 137078522
+jaccard score: 0.5035195547182526 intersection: 98099807 union: 194828197
+test time consumption:  89.96646022796631
+saving model: epoch0iter11000.pkl
+model saved
+save time consumption:  0.8726449012756348
+---------------------------------------------
+train time consumption:  675.2113456726074
+epoch0 iter 12000/42397 BCE loss: 0.2888539
+testing......
+pixel accuracy: 0.8866380286216736 correct: 743765886  wrong: 95094914
+precision: 0.772183481042661 true_positive: 86180237 positive: 111605906
+jaccard score: 0.47541119962989303 intersection: 86180237 union: 181275151
+test time consumption:  90.31699228286743
+saving model: epoch0iter12000.pkl
+model saved
+save time consumption:  0.8195312023162842
+---------------------------------------------
+train time consumption:  675.1908841133118
+epoch0 iter 13000/42397 BCE loss: 0.29900151
+testing......
+pixel accuracy: 0.8702504277229309 correct: 730018970  wrong: 108841830
+precision: 0.6202863622699748 true_positive: 121203289 positive: 195398926
+jaccard score: 0.526867466377324 intersection: 121203289 union: 230045119
+test time consumption:  92.9564094543457
+saving model: epoch0iter13000.pkl
+model saved
+save time consumption:  0.7726385593414307
+---------------------------------------------
+train time consumption:  687.5396392345428
+epoch0 iter 14000/42397 BCE loss: 0.2733971
+testing......
+pixel accuracy: 0.8857923829555512 correct: 743056507  wrong: 95804293
+precision: 0.7055022722226932 true_positive: 103069462 positive: 146093735
+jaccard score: 0.5182657812238723 intersection: 103069462 union: 198873755
+test time consumption:  90.2478609085083
+saving model: epoch0iter14000.pkl
+model saved
+save time consumption:  0.8277420997619629
+---------------------------------------------
+train time consumption:  674.8204343318939
+epoch0 iter 15000/42397 BCE loss: 0.27283275
+testing......
+pixel accuracy: 0.8833757364749908 correct: 741029277  wrong: 97831523
+precision: 0.7202070134127337 true_positive: 94876499 positive: 131735039
+jaccard score: 0.49233289831598187 intersection: 94876499 union: 192708022
+test time consumption:  89.26761031150818
+saving model: epoch0iter15000.pkl
+model saved
+save time consumption:  0.7769618034362793
+---------------------------------------------
+train time consumption:  672.8293025493622
+epoch0 iter 16000/42397 BCE loss: 0.27991027
+testing......
+pixel accuracy: 0.8829433929920196 correct: 740666601  wrong: 98194199
+precision: 0.7220096152429564 true_positive: 93751950 positive: 129848617
+jaccard score: 0.4884283976960642 intersection: 93751950 union: 191946149
+test time consumption:  91.02356839179993
+saving model: epoch0iter16000.pkl
+model saved
+save time consumption:  0.8736793994903564
+---------------------------------------------
+train time consumption:  674.2297294139862
+epoch0 iter 17000/42397 BCE loss: 0.26842162
+testing......
+pixel accuracy: 0.8833365070819855 correct: 740996369  wrong: 97864431
+precision: 0.7900472982016643 true_positive: 78971487 positive: 99957923
+jaccard score: 0.44658058098807735 intersection: 78971487 union: 176835918
+test time consumption:  90.7779757976532
+saving model: epoch0iter17000.pkl
+model saved
+save time consumption:  0.9016427993774414
+---------------------------------------------
+train time consumption:  673.7768256664276
+epoch0 iter 18000/42397 BCE loss: 0.27439383
+testing......
+pixel accuracy: 0.8854197502136231 correct: 742743920  wrong: 96116880
+precision: 0.7330744333720767 true_positive: 93936608 positive: 128140614
+jaccard score: 0.4942640568638235 intersection: 93936608 union: 190053488
+test time consumption:  90.55573153495789
+saving model: epoch0iter18000.pkl
+model saved
+save time consumption:  0.8971004486083984
+---------------------------------------------
+train time consumption:  674.2580125331879
+epoch0 iter 19000/42397 BCE loss: 0.26378992
+testing......
+pixel accuracy: 0.885869779586792 correct: 743121432  wrong: 95739368
+precision: 0.7078153310074655 true_positive: 102366991 positive: 144623868
+jaccard score: 0.5167274362959747 intersection: 102366991 union: 198106359
+test time consumption:  90.94708037376404
+saving model: epoch0iter19000.pkl
+model saved
+save time consumption:  0.8188953399658203
+---------------------------------------------
+train time consumption:  673.7742977142334
+epoch0 iter 20000/42397 BCE loss: 0.26879627
+testing......
+pixel accuracy: 0.8821543157100677 correct: 740004675  wrong: 98856125
+precision: 0.6797760171343359 true_positive: 107752741 positive: 158512125
+jaccard score: 0.5215300925179077 intersection: 107752741 union: 206608866
+test time consumption:  90.20096158981323
+saving model: epoch0iter20000.pkl
+model saved
+save time consumption:  0.8017771244049072
+---------------------------------------------
+train time consumption:  673.5632679462433
+epoch0 iter 21000/42397 BCE loss: 0.26466566
+testing......
+pixel accuracy: 0.8886269021034241 correct: 745434274  wrong: 93426526
+precision: 0.7454081289098913 true_positive: 94802440 positive: 127181924
+jaccard score: 0.5036548944331979 intersection: 94802440 union: 188228966
+test time consumption:  89.62784743309021
+saving model: epoch0iter21000.pkl
+model saved
+save time consumption:  0.8688390254974365
+---------------------------------------------
+train time consumption:  673.3388469219208
+epoch0 iter 22000/42397 BCE loss: 0.25819653
+testing......
+pixel accuracy: 0.8889567720890045 correct: 745710989  wrong: 93149811
+precision: 0.7349501973790618 true_positive: 98065752 positive: 133431833
+jaccard score: 0.5128544479405163 intersection: 98065752 union: 191215563
+test time consumption:  90.11137914657593
+saving model: epoch0iter22000.pkl
+model saved
+save time consumption:  0.7910797595977783
+---------------------------------------------
+train time consumption:  673.1947293281555
+epoch0 iter 23000/42397 BCE loss: 0.27045983
+testing......
+pixel accuracy: 0.8865609514713287 correct: 743701229  wrong: 95159571
+precision: 0.7519203611366899 true_positive: 90572234 positive: 120454557
+jaccard score: 0.4876506422796031 intersection: 90572234 union: 185731805
+test time consumption:  90.25764846801758
+saving model: epoch0iter23000.pkl
+model saved
+save time consumption:  0.7769589424133301
+---------------------------------------------
+train time consumption:  672.3642094135284
+epoch0 iter 24000/42397 BCE loss: 0.26527655
+testing......
+pixel accuracy: 0.886892591714859 correct: 743979429  wrong: 94881371
+precision: 0.73868488018051 true_positive: 94342427 positive: 127716743
+jaccard score: 0.49857590851231093 intersection: 94342427 union: 189223798
+test time consumption:  89.35758829116821
+saving model: epoch0iter24000.pkl
+model saved
+save time consumption:  0.7658538818359375
+---------------------------------------------
+train time consumption:  671.7412586212158
+epoch0 iter 25000/42397 BCE loss: 0.266238
+testing......
+pixel accuracy: 0.8790313720703125 correct: 737384960  wrong: 101475840
+precision: 0.7826167583828381 true_positive: 75285209 positive: 96196776
+jaccard score: 0.4259151517029071 intersection: 75285209 union: 176761049
+test time consumption:  91.16347455978394
+saving model: epoch0iter25000.pkl
+model saved
+save time consumption:  0.8347225189208984
+---------------------------------------------
+train time consumption:  674.8439993858337
+epoch0 iter 26000/42397 BCE loss: 0.25466493
+testing......
+pixel accuracy: 0.888700053691864 correct: 745495638  wrong: 93365162
+precision: 0.7402674567156263 true_positive: 96257540 positive: 130030760
+jaccard score: 0.5076266659252646 intersection: 96257540 union: 189622702
+test time consumption:  91.4050076007843
+saving model: epoch0iter26000.pkl
+model saved
+save time consumption:  0.846444845199585
+---------------------------------------------
+train time consumption:  675.4833164215088
+epoch0 iter 27000/42397 BCE loss: 0.2579333
+testing......
+pixel accuracy: 0.8866163969039917 correct: 743747740  wrong: 95113060
+precision: 0.7365660688808489 true_positive: 94553686 positive: 128370950
+jaccard score: 0.4985253767152203 intersection: 94553686 union: 189666746
+test time consumption:  91.40610885620117
+saving model: epoch0iter27000.pkl
+model saved
+save time consumption:  0.8988511562347412
+---------------------------------------------
+train time consumption:  674.683767080307
+epoch0 iter 28000/42397 BCE loss: 0.25948918
+testing......
